@@ -10,7 +10,7 @@ const App = () => {
         const tl = gsap.timeline();
         tl.from("#intro-bg", {
             xPercent: -100,
-            delay: 0.3,
+            delay: 0.5,
             duration: 1,
         })
             .from(["#intro-text-1", "#intro-text-2", "#intro-text-3"], {
@@ -47,13 +47,13 @@ const App = () => {
                     id="intro-text-1"
                     className="text-6xl font-bold overflow-hidden p-1"
                 >
-                    Software Engineer
+                    MERN-Stack Developer
                 </h1>
                 <h1
                     id="intro-text-2"
                     className="text-6xl font-bold overflow-hidden p-1"
                 >
-                    Designer
+                    Frontend Developer
                 </h1>
                 <h1
                     id="intro-text-3"
